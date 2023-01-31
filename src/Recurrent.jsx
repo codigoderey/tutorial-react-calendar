@@ -49,7 +49,11 @@ const Recurrent = () => {
 	return (
 		<div className="full-screen flex">
 			<Calendar calendarType="US" value={value} onChange={onChange} />
-			<button onClick={onSaveDates}>Save</button>
+			<button
+				style={{ padding: ".5rem 1rem", marginTop: "1rem" }}
+				onClick={onSaveDates}>
+				Save
+			</button>
 		</div>
 	);
 };
